@@ -9,14 +9,13 @@ var item1input;
 var passwordArray = [];
 var randompassword = "";
 
-
 var parameters = function() {
   
 item1()
 Outputs()
 writePassword()
 
-  
+
 }
 //Generate
 generateBtn.addEventListener("click", parameters);
@@ -25,7 +24,8 @@ var item1= function() {
     
       // ask user how many characters they want
          item1input = prompt("How many characters would you like your password to contain?");
-  console.log(item1input)
+         
+     console.log(item1input)
       // if player picks between 7 and 128 continue, if not prompt them again
       if (item1input <= 7 || item1input > 128) {
         // prompt them again
@@ -55,7 +55,6 @@ var Outputs= function() {
   
   }
 
-
 // Write password to the #password input
 var writePassword = function() {
 
@@ -66,7 +65,6 @@ for (var i = 0; i < item1input; i++) {
 
  randompassword = randompassword + randomchar;
 }
-
   var passwordText = document.querySelector("#password");
 
  passwordText.value = randompassword;
