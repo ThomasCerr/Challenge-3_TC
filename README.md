@@ -37,6 +37,6 @@ THEN the password is either displayed in an alert or written to the page
 ```
 ## Mockup
 
-<img src= "https://github.com/ThomasCerr/Challenge3_TC/blob/master/assets/images/example.png">
+<img src= "https://github.com/ThomasCerr/Challenge-3_TC/blob/master/assets/images/Example.PNG">
 
 Link to deployed application: https://thomascerr.github.io/Challenge-3_TC/
